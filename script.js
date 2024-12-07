@@ -322,9 +322,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }, "slow");
     });
     fetchSearchResults('Erik Foss Art');  // Search for "Erik Foss"
-    document.getElementById('search-btn').addEventListener('click', () => {
-        console.log('Button clicked!');
-        const query = document.getElementById('search-input').value.trim();
-        fetchSearchResults(query);  // Trigger the search when the user clicks the button
-    });
+    // document.getElementById('search-btn').addEventListener('click', () => {
+    //     console.log('Button clicked!');
+    //     const query = document.getElementById('search-input').value.trim();
+    //     fetchSearchResults(query);  
+    // });
 });
